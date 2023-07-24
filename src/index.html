@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+@include('./partials/Home/head.html')
+
+<body>
+  <div class="wrapper">
+    @include('./partials/Home/header.html', {
+    "header": "wrapper__header",
+    "headerList": "wrapper__list",
+    })
+    @include('./partials/Home/hero.html', {
+    "hero": "wrapper__hero",
+    "heroContent": "wrapper__hero-content",
+    })
+    @include('./partials/Home/tech.html', {
+    "tech": "wrapper__tech",
+    })
+    @include('./partials/Home/future.html', {
+    "future": "wrapper__future",
+    })
+    @include('./partials/Home/services.html', {
+    "services": "wrapper__services",
+    })
+    @include('./partials/Home/form.html', {
+    "form": "wrapper__form",
+    })
+    @include('./partials/Home/footer.html', {
+    "footer": "wrapper__footer",
+    "footerList": "wrapper__list",
+    })
+  </div>
+</body>
+
+</html>

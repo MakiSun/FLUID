@@ -1,0 +1,21 @@
+.footer__content {
+  @include flex-all-center;
+  margin-bottom: 15px;
+}
+.footer__items {
+  @include flex-all-sb;
+
+}
+.footer__info {
+  @include flex-all-sb;
+  @include ss {
+    @include flex-column;
+  }
+}
+
+.footer__subtitle {
+  padding-bottom: 20px;
+  @include us {
+    text-align: center;
+  }
+}
