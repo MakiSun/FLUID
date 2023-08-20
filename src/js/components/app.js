@@ -13,5 +13,3 @@ for (let key of Object.keys(user)) {
 }
 
 console.log(content);
-
-
